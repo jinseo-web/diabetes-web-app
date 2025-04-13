@@ -10,4 +10,12 @@ MarkupSafe==3.0.2
 Werkzeug==3.1.3
 WTForms==3.2.1
 gunicorn
-
+Flask
+Flask-WTF
+WTForms
+numpy
+pandas
+scikit-learn
+matplotlib
+tensorflow
+python-dotenv
