@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+{% block navbar %}
+<nav class="navbar bg-white justify-content-between px-4 py-3">
+    <a class="btn btn-info" href="/">Home</a>
+    <a class="btn btn-info" href="/prediction">Diagnostic</a>
+</nav>
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+<div class="container">
+    <footer class="text-muted mt-4 mb-2">&copy; 2021810005 고진서</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
